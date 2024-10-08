@@ -8,7 +8,7 @@ hero:
   text: "Vue 3 + TypeScript 学习文档"
   tagline: "学习是少数人的狂欢，亦是孤独者的游戏"
   image: 
-    src: /assets/V.png
+    src: https://guke-bucket.oss-cn-nanjing.aliyuncs.com/images/V.png
     alt: Chrome 浏览器插件
   actions:
     - theme: brand

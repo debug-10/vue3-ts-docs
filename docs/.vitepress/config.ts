@@ -7,13 +7,13 @@ export default defineConfig({
     description: "详细学习 Vue 3 和 TypeScript 的指南",
     themeConfig: { 
         // siteTitle: "前端学习” ,
-        logo: "/assets/V.png",
+        logo: "https://guke-bucket.oss-cn-nanjing.aliyuncs.com/images/V.png",
         nav: [
             { text:"首页", link: "/" },
             { text:"指南", link:"/guide/"},
             { text:"组件", link:"/components/"},
             { text:"API 参考", link:"/api/"},
-            { text:"常见问题", link:"/fag/"},
+            { text:"常见问题", link:"/faq/"},
             ],
         socialLinks: [
             { icon: "github", link:"https://github.com/vuejs/vitepress" },

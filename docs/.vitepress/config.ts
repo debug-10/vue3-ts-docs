@@ -40,7 +40,6 @@ export default defineConfig({
            { text:"表单 Form" , link:"/components/form" },
            { text:"输入框 Input" , link:"/components/input"},
            { text:"模态框 Modal" , link:"/components/modal"},
-        //    { text:"列表 List" , link:"/components/list"},
           
           ],
          },

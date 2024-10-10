@@ -24,9 +24,10 @@ export default defineConfig({
            text: "开始",
            collapsible: true,
            items: [
-           { text:"介绍" , link:"/quide/"},
+           { text:"介绍" , link:"/guide/"},
            { text:"安装" , link:"/guide/installation" }, 
            { text:"基本概念" , link:"/guide/concepts" },
+
           ],
          },
         ],
@@ -37,9 +38,34 @@ export default defineConfig({
            { text:"介绍" , link:"/components/"},
            { text:"按钮 Button" , link:"/components/button" }, 
            { text:"表单 Form" , link:"/components/form" },
-           { text:"介绍 Table" , link:"/components/table"},
+           { text:"输入框 Input" , link:"/components/input"},
+           { text:"模态框 Modal" , link:"/components/modal"},
+        //    { text:"列表 List" , link:"/components/list"},
+          
           ],
          },
+
+         {   
+           text: "组合式函数",
+           items: [
+           { text:"介绍" , link:"/components/composable"},
+           { text:"倒计时计时器" , link:"/components/useCountdown"},
+           { text:"模拟短信发送" , link:"/components/useSmsSender"},
+           { text:"表单验证" , link:"/components/useFormValidation"},
+
+          ],
+         },
+
+
+         {
+           text: "VueUse能力整理",
+           items: [
+           { text:"介绍" , link:"/components/index01"},
+           { text:"" , link:"/components/"},
+           { text:"" , link:"/components/"},
+          ],
+         },
+
         ],
        },
     footer: {
